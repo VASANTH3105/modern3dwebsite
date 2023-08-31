@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Orbitron:wght@400;500&display=swap');
+
+        body {
+            display: grid;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, hsl(216, 100%, 10%), #002a30);
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, cover;
+            background-attachment: fixed;
+            font-family: 'Orbitron', sans-serif;
+
+        }
+
+        #contents {
+            margin: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #ffffff7e, #ffffff2e, #ffffff7e);
+            border: 1px solid #ffffff61;
+            border-radius: 10px;
+            height: 70vh;
+            box-shadow: 2px 2px 20px #000000;
+        }
+
+        #indicontents {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #85c4ff7e, #3860867e, #85c4ff7e);
+            border: 1px solid #ffffff61;
+            border-radius: 10px;
+            height: 20vh;
+            box-shadow: 2px 2px 20px #ffffff;
+        }
+
+        #indicontents:hover {
+            color: #000000;
+            background: linear-gradient(180deg, #0000007e, #828282, #0000007e);
+            box-shadow: 2px 2px 20px #000000;
+            transform: scale(1.1);
+        }
+
+        #hero h2 {
+            font-size: 35px;
+        }
+
+        #hero h1 {
+            font-size: 80px;
+        }
+
+        .navi {
+            position: sticky;
+        }
+
+        span {
+            color: rgb(0, 208, 255);
+
+        }
+
+        #herobtm {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navi">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto p-lg-2 ms-lg-3 ">
+                    <li>
+                        <a class="nav-link" href="#"> Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"> Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"> Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"> Home</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+    </div>
+
+    <div id="hero" class="container-fluid col-8">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid"
+                    src="https://bestanimations.com/media/spheres/1459907060sphere-computer-effects-art-3d-geometry-gif-17.gif"
+                    alt="">
+            </div>
+
+            <div class="col-lg-6 col-12 my-auto">
+                <h2 class="text-light">Welcome to the Future</h2>
+                <h1 class="text-light">Web 3.0</h1>
+                <p class="text-light">crafted by <span>VASANTH S</span></p>
+                <p class="pt-lg-2 text-light"><small>-powered by S.V group's</small></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="herobtm">
+        <div class="container-fluid col-10 m-auto">
+            <div class="row mx-auto">
+                <div id="indicontents" class="col-lg-3 col-md-3 col-2">
+                    <h1>EAT</h1>
+                </div>
+
+                <div id="indicontents" class="col-lg-3 col-md-3 col-2">
+                    <h1>SLEEP</h1>
+                </div>
+
+                <div id="indicontents" class="col-lg-3 col-md-3 col-2">
+                    <h1>CODE</h1>
+                </div>
+                <div id="indicontents" class="col-lg-3 col-md-3 col-2">
+                    <h1>REPEAT</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 text-center mx-auto mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://25.media.tumblr.com/3121f994e1e28da404a1c953bad557e8/tumblr_mfzyw50YKd1rq9asdo1_500.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">VASANTH S</h1>
+                    <h5>B.Tech Information technology</h5>
+                    <h5></h5>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/top-gif-xxx-3-d-stickers-for-android-amp-ios-gfycat.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contents" class="container-fluid col-10 mx-auto text-center mt-lg-5">
+        <div class="row text-lg-center">
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid h-75 w-75"
+                    src="https://cutewallpaper.org/24/3d-gif-transparent/twitter-3d-transparent-rotation-gif-by-rubikscardtricks-on-deviantart.gif"
+                    alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div>
+                    <h1 class="p-3 text-light">Check Odd or Even</h1>
+
+                    <form action="">
+                        <div class="form">
+                            <div class="row m-3">
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="form-control w-50  float-lg-end" id="value" type="text"
+                                        placeholder="Enter value...">
+                                </div>
+                                <div class="col-lg-6 col-12 p-2">
+                                    <input class="btn btn-outline-light float-lg-start" id="btbtn" type="button"
+                                        value="Check">
+                                </div>
+                                <hr>
+                            </div>
+                            <div id="answer" class="bg-success-subtle border-success"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const input = document.querySelector("#value");
+        const btbtn = document.querySelector("#btbtn");
+        const answer = document.querySelector("#answer");
+
+        btbtn.addEventListener("click", () => {
+            myFunc();
+        });
+
+        function myFunc() {
+            const inputValue = parseInt(input.value);
+
+            if (isNaN(inputValue)) {
+                answer.innerHTML = "<h1>Please enter a valid number</h1>";
+            } else {
+                if (inputValue % 2 == 0) {
+                    answer.innerHTML = "<h1>Even number</h1>";
+                } else {
+                    answer.innerHTML = "<h1>Odd number</h1>";
+                }
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
